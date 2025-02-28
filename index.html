@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Board</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="mx-32 bg-[rgb(244,247,255)] min-h-screen ">
+    <header class="pt-3 mx-10 ">
+        <div class="navbar bg-white rounded-xl ">
+            <div>
+                <img src="./assects/logo.png" alt="">
+            </div>
+            <div class="flex-1">
+            <p><span class="text-[rgb(0,48,60)]">Dev</span><span class="text-[rgb(0,48,60)] font-bold">Board</span></p>
+            </div>
+            
+             <div class=" flex gap-3">
+                <div class="flex bg-[rgb(244,247,255)] rounded-full gap-2">
+                    <div><img src="./assects/checkbox.png" alt=""></div>
+                  <div><h1 id="nav-value" class=" font-bold text-black">23</h1></div>
+                </div>
+                <div>
+                    <button> <img src="./assects/theme-btn.png" alt=""></button>
+                </div>
+             </div>
+          </div>
+        
+
+    </header>
+    <main class="mx-2 mt-5 bg-white rounded-lg">
+        <!-- number section -->
+       <section >
+        <div class=" flex mx-5 gap-4 " >
+            <div class="w-3/5 ">
+                <!-- main part -->
+                <div class=" py-2 grid grid-cols-4 gap-3"> 
+                    <div class=" p-2 card card-side bg-[rgb(244,247,255)] shadow-xl rounded-md">
+                        <figure>
+                          <img src="./assects/checkbox.png" alt="">
+                            
+                        </figure>
+                        <div >
+                            <p>Task Assigned  </p>
+                          <h2 id="card-value
+                          " class="card-title">05</h2>
+                        
+                        </div>
+                      </div>
+                      <div class="col-span-2 card card-side bg-[linear-gradient(130.7deg,rgb(55,82,253)_0.419%,rgb(108,127,255)_52.66%,rgb(155,168,248)_99.73%)] shadow-xl rounded-md px-2">
+                        <figure>
+                          <img src="./assects/board.png" alt="">
+                            
+                        </figure>
+                        <div class="card-body">
+                            <p>Task Assigned  </p>
+                          <h2 class="card-title">05</h2>
+                        
+                        </div>
+                      </div>
+                      <div class=" p-2 card card-side bg-[rgb(244,247,255)] shadow-xl rounded-md">
+                        <figure>
+                          <img src="./assects/calender.png" alt="">
+                            
+                        </figure>
+                        <div >
+                            <p>Task Assigned  </p>
+                          <h2 class="card-title">Wed ,
+                            Jul 28 2025 </h2>
+                        
+                        </div>
+                      </div>
+                </div>
+                <br>
+               
+                <div class="mt-3 grid grid-cols-3 gap-3 mx-3">
+                   
+                    <div class="p-3 rounded-xl bg-[rgb(244,247,255)]">
+                        <p class="bg-white w-2/6 text-center p-2 rounded-md">ShopEase</p>
+                        <h2 class="text-[rgb(0,60,48)]">Fix Mobile Button Issue  </h2>
+                        <p class="bg-white rounded-2xl p-2">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly </p>
+                        <div class="flex gap-4 mt-2">
+                            <div>
+                                <p>Deadline</p>
+                                <h5>21 March 2025</h5>
+                            </div>
+                            <div class=" bg-[linear-gradient(130.7deg,rgb(55,82,253)_0.419%,rgb(108,127,255)_52.66%,rgb(155,168,248)_99.73%)] shadow-xl rounded-md px-2 text-center p-2 ">
+                                <button id="btn-first" class=" btn-complete">Completed</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="p-3 rounded-xl bg-[rgb(244,247,255)]">
+                        <p class="bg-white w-2/6 text-center p-2 rounded-md">ShopEase</p>
+                        <h2 class="text-[rgb(0,60,48)]">Fix Mobile Button Issue  </h2>
+                        <p class="bg-white rounded-2xl p-2">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly </p>
+                        <div class="flex gap-4 mt-2">
+                            <div>
+                                <p>Deadline</p>
+                                <h5>21 March 2025</h5>
+                            </div>
+                            <div class=" bg-[linear-gradient(130.7deg,rgb(55,82,253)_0.419%,rgb(108,127,255)_52.66%,rgb(155,168,248)_99.73%)] shadow-xl rounded-md px-2 text-center p-2 ">
+                                <button id="btn-second" class="btn-complete">Completed</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="p-3 rounded-xl bg-[rgb(244,247,255)]">
+                        <p class="bg-white w-2/6 text-center p-2 rounded-md">ShopEase</p>
+                        <h2 class="text-[rgb(0,60,48)]">Fix Mobile Button Issue  </h2>
+                        <p class="bg-white rounded-2xl p-2">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly </p>
+                        <div class="flex gap-4 mt-2">
+                            <div>
+                                <p>Deadline</p>
+                                <h5>21 March 2025</h5>
+                            </div>
+                            <div class=" bg-[linear-gradient(130.7deg,rgb(55,82,253)_0.419%,rgb(108,127,255)_52.66%,rgb(155,168,248)_99.73%)] shadow-xl rounded-md px-2 text-center p-2 ">
+                                <button id="btn-third" class="btn-complete">Completed</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="p-3 rounded-xl bg-[rgb(244,247,255)]">
+                        <p class="bg-white w-2/6 text-center p-2 rounded-md">ShopEase</p>
+                        <h2 class="text-[rgb(0,60,48)]">Fix Mobile Button Issue  </h2>
+                        <p class="bg-white rounded-2xl p-2">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly </p>
+                        <div class="flex gap-4 mt-2">
+                            <div>
+                                <p>Deadline</p>
+                                <h5>21 March 2025</h5>
+                            </div>
+                            <div class=" bg-[linear-gradient(130.7deg,rgb(55,82,253)_0.419%,rgb(108,127,255)_52.66%,rgb(155,168,248)_99.73%)] shadow-xl rounded-md px-2 text-center p-2 ">
+                                <button  id="btn-fourth" class="btn-complete">Completed</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="p-3 rounded-xl bg-[rgb(244,247,255)]">
+                        <p class="bg-white w-2/6 text-center p-2 rounded-md">ShopEase</p>
+                        <h2 class="text-[rgb(0,60,48)]">Fix Mobile Button Issue  </h2>
+                        <p class="bg-white rounded-2xl p-2">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly </p>
+                        <div class="flex gap-4 mt-2">
+                            <div>
+                                <p>Deadline</p>
+                                <h5>21 March 2025</h5>
+                            </div>
+                            <div class=" bg-[linear-gradient(130.7deg,rgb(55,82,253)_0.419%,rgb(108,127,255)_52.66%,rgb(155,168,248)_99.73%)] shadow-xl rounded-md px-2 text-center p-2 ">
+                                <button id="btn-fivth" class="btn-complete">Completed</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="p-3 rounded-xl bg-[rgb(244,247,255)]">
+                        <p class="bg-white w-2/6 text-center p-2 rounded-md">ShopEase</p>
+                        <h2 class="text-[rgb(0,60,48)]">Fix Mobile Button Issue  </h2>
+                        <p class="bg-white rounded-2xl p-2">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly </p>
+                        <div class="flex gap-4 mt-2">
+                            <div>
+                                <p>Deadline</p>
+                                <h5>21 March 2025</h5>
+                            </div>
+                            <div class=" bg-[linear-gradient(130.7deg,rgb(55,82,253)_0.419%,rgb(108,127,255)_52.66%,rgb(155,168,248)_99.73%)] shadow-xl rounded-md px-2 text-center p-2 ">
+                                <button id="btn-sixth" class="btn-complete">Completed</button>
+                            </div>
+                        </div>
+
+                    </div>
+                  
+                 
+                    
+
+                </div>
+            </div>
+            <div class="">
+                <!-- history part likhbo -->
+                 <div class=" flex gap-1">
+                    <div>
+                        <img src="./assects/activity.png" alt="">
+                    </div>
+                    <div>
+                        <a href=""> Activity log</a>
+                    </div>
+                 </div>
+                 <div class="bg-[linear-gradient(130.7deg,rgb(55,82,253)_0.419%,rgb(108,127,255)_52.66%,rgb(155,168,248)_99.73%)] shadow-xl rounded-md px-2 text-center p-2 mt-2"><button>Clear history</button></div>
+            </div>
+        </div>
+
+       </section>
+
+    </main>
+
+    <script src="./script/frist.js"></script>
+    <script src="./script/toggle.js"></script>
+</body>
+</html>
