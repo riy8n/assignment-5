@@ -19,7 +19,11 @@ for(let i=0; i<comBtn.length; i++){
    
     const navValue=getInnerTextById("nav-value")
     const navSum=navValue+1;
+    getCalculateValue("nav-value",navSum)
+if(sum===0){
+  alert("You have complete the all button")
 
+}
     // btn title
     const cardT=completeBtn.parentElement.parentElement.parentElement;
     const cardTitle= cardT.querySelector(".title").innerHTML
@@ -42,7 +46,7 @@ for(let i=0; i<comBtn.length; i++){
 const container=document.getElementById("history-value");
 container.appendChild(p)
 
-    
+   
 
   //  button disable
    event.target.disabled= true;

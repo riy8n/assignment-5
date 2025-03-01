@@ -14,3 +14,4 @@ function getCalculateValue(id,value){
     document.getElementById(id).innerText=value;
 }
 
+
