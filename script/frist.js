@@ -21,9 +21,13 @@ for(let i=0; i<comBtn.length; i++){
     const navSum=navValue+1;
     getCalculateValue("nav-value",navSum)
 if(sum===0){
-  alert("You have complete the all button")
+  alert("congratulation!! You have complete the all button")
 
 }
+  //  button disable
+  event.target.disabled= true;
+  event.target.style.backgroundColor= "#F4F7FF"
+  event.target.style.cursor="not-allowed" 
     // btn title
     const cardT=completeBtn.parentElement.parentElement.parentElement;
     const cardTitle= cardT.querySelector(".title").innerHTML
@@ -48,10 +52,7 @@ container.appendChild(p)
 
    
 
-  //  button disable
-   event.target.disabled= true;
-   event.target.style.backgroundColor= "#fff"
-   event.target.style.cursor="not-allowed" 
+
  
   })
 

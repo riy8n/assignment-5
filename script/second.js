@@ -1,7 +1,10 @@
 document.getElementById("history-btn").addEventListener("click",function(event){
-    event.preventDefault();
+   
     const divValueP=document.getElementById("history-value");
-    divValueP.style.display="none";
+     divValueP.classList.add("hidden")
+       location.reload();
+     
+
 
 })
 document.getElementById("discover-card").addEventListener("click",function(event){
